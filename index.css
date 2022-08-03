@@ -1,0 +1,26 @@
+body{
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+}
+
+.parfum{
+    background-color: white;
+    display: flex;
+	width:30%;
+	height:30%;
+    margin-left: 35%;
+    margin-top: 12%;
+    border-radius: 10px;
+}
+
+img{
+    max-width : 50%;
+    height : auto;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h1{
+    font-size: 14px;
+    font: "https://fonts.google.com/specimen/Montserrat";
+}
