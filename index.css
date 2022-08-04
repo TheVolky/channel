@@ -7,20 +7,70 @@ body{
 .parfum{
     background-color: white;
     display: flex;
-	width:30%;
+	width:35%;
 	height:30%;
-    margin-left: 35%;
-    margin-top: 12%;
+    margin-left: 32%;
+    margin-top: 9%;
     border-radius: 10px;
 }
 
-img{
+.image{
     max-width : 50%;
     height : auto;
     border-radius: 10px 0px 0px 10px;
 }
 
-h1{
+.text{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
     font-size: 14px;
-    font: "https://fonts.google.com/specimen/Montserrat";
+}
+
+.text>span{
+    font-size: 14px;
+    letter-spacing: 7px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+}
+
+.text>h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    margin-right: 30px;
+}
+
+.text>.description{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.text>.price{
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+}
+
+.price>.old_price{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-left: 7%;
+}
+
+.cart{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 90%;
+    height: 10%;
+    margin-bottom: 35px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.cart:hover {
+    background-color: hsl(156, 42%, 18%);
 }
