@@ -109,4 +109,12 @@ body{
         height: 50px;
         margin-bottom: 20px;
     }
+
+    .text>h1{
+        margin-right: 20px;
+    }
+
+    .text>.description{
+        margin-right: 20px;
+    }
 }
